@@ -40,9 +40,9 @@ circle.click(function(){
       let popupClone = popup.html($(this).clone());
         popupClone.toggleClass('hide');
       // 윈도우 너비가 768이상일때만 보이게
-        if($(window).width() > 768){
-          popupClone.find('img').css({display:'block'});
-        }
+        // if($(window).width() > 780){
+        //   popupClone.find('img').css({display:'block'});
+        // }
       //외부영역 클릭했을때 hide추가해서 숨기게
       $(document).mouseup(function (e){
         if(popup.has(e.target).length === 0){
