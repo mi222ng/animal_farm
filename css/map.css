@@ -190,7 +190,7 @@ header {
   #tabs-3 .map_list_item {
     width: 280px;
   }
-  .popup > img {
+  .popup:not(.hide) > .map_list_item > img {
     display: none;
   }
 }
