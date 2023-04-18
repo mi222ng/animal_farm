@@ -735,6 +735,10 @@ dialog {
   background: var(--main-bg);
   font-family: "samsungsharpsans_medium";
 }
+dialog .normal {
+  font-size: 14px;
+  line-height: 20px;
+}
 dialog .popup-logo {
   text-align: center;
 }
@@ -746,7 +750,7 @@ dialog .main-popup h2 {
   text-transform: uppercase;
   font-size: 40px;
   padding: 10px 18px;
-  margin: 20px auto 40px;
+  margin: 20px auto;
 }
 dialog .main-popup h2,
 dialog .main-popup > p {
@@ -757,9 +761,13 @@ dialog .main-popup > p {
   line-height: 27px;
 }
 dialog .main-popup .popup-content {
-  margin: 40px 0;
+  margin: 15px 0;
   font-size: 14px;
   line-height: 20px;
+}
+dialog .main-popup .popup-content .pointed {
+  font-size: 18px;
+  font-weight: 600;
 }
 dialog .main-popup form {
   text-align: center;
@@ -807,4 +815,5 @@ dialog .popup_close {
 dialog .popup-content .ming_made {
   font-size: 18px;
   font-weight: bold;
+  line-height: 1.5;
 }
