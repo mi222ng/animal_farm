@@ -722,6 +722,9 @@ div {
 }
 
 /* 팝업 */
+dialog .main-popup .pointcolor {
+  color: tomato;
+}
 dialog {
   position: fixed;
   top: 100px;
